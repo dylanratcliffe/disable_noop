@@ -4,7 +4,7 @@
   "author": "beergeek",
   "summary": "Disable noop on Puppet agents",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/beergeek/disable_noop",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
