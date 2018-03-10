@@ -1,14 +1,20 @@
 {
   "name": "beergeek-disable_noop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "beergeek",
   "summary": "Disable noop on Puppet agents",
   "license": "Apache-2.0",
   "source": "https://github.com/beergeek/disable_noop",
+  "project_page": "https://github.com/beergeek/disable_noop",
+  "issues_url": "https://github.com/beergeek/disable_noop/issues",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
       "version_requirement": ">= 4.13.1 < 5.0.0"
+    },
+    {
+      "name": "puppetlabs-inifile",
+      "version_requirement": ">= 2.0.0 < 3.0.0"
     }
   ],
   "operatingsystem_support": [
